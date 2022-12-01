@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* .container {
+  display: flex;
+  border: 1px solid red;
+} */
+
+.carousel-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+}
+
+.btn-previous, .btn-next {
+  color: white;
+  font-weight: bold;
+  width: auto;
+}
+
+.carousel-img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.img-display-view {
+  margin: 10px;
+  min-height: 100px;
+  min-width: 100px;
+}
+
+.img-display-none {
+  display: none;
+}
